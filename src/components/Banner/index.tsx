@@ -2,7 +2,7 @@ import Button from "../Button";
 
 export default function Banner() {
     return (
-        <section className="flex flex-col items-center justify-center md:w-4/5 gap-4 mr-6 md:flex-row-reverse  from-green-500 from-10% via-emerald-500 via-30% to-sky-500 to-90%">
+        <section className="flex flex-col w-full items-center justify-center md:w-4/5 gap-4 md:flex-row-reverse  from-green-500 from-10% via-emerald-500 via-30% to-sky-500 to-90%">
             <div className="w-full h-full">
                 <div className=" bg-[url('././assets/images/mockups.png')] bg-cover w-full h-96">
                 </div>

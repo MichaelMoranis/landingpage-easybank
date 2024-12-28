@@ -7,7 +7,7 @@ import WhyChoose from './components/WhyChoose'
 function App() {
 
   return (
-    <main className='flex flex-col items-center justify-center content-center max-w-screen'>
+    <main className='flex flex-col items-center justify-center content-center w-full overflow-x-hidden'>
       <Header />
       <Banner />
       <WhyChoose />

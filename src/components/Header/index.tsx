@@ -4,7 +4,7 @@ import Button from "../Button"
 
 export default function Header() {
     return (
-        <section className="flex items-center w-full md:w-4/5 justify-between gap-40 md:gap-16 p-2 m-2">
+        <section className="flex items-center w-full md:w-4/5 justify-between gap-40 md:gap-16 p-2">
             <div className="h-10 p-2">
                 <img className="h-6" src={logo} alt="logo" />
             </div>
