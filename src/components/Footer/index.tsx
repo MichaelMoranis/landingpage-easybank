@@ -9,9 +9,9 @@ import ListHeader from "../ListHeader";
 
 export default function Footer() {
   return (
-    <section className="bg-indigo-900 w-full flex flex-col gap-4 items-center justify-center md:flex-row md:justify-around md:p-12">
+    <section className="bg-indigo-900 w-full flex flex-col gap-4 items-center justify-center md:flex-row md:w-4/5 md:justify-around md:p-12">
       <div className="flex flex-col items-center">
-        <div className="text-center mt-8 h-16 w-40">
+        <div className="text-center h-16 w-40">
           <h3 className="text-4xl font-bold text-zinc-100">Easybank</h3>
         </div>
         <div>

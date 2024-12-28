@@ -6,7 +6,7 @@ import confet from "../../assets/images/image-confetti.jpg"
 
 export default function Articles() {
     return (
-        <section className="flex flex-col gap-4 bg-zinc-100  md:w-4/5 p-12  rounded-md">
+        <section className="flex flex-col gap-4 bg-zinc-100  md:w-4/5 p-4  rounded-md">
             <div className="flex flex-col m-4 gap-4">
                 <h3 className="text-3xl text-zinc-600">
                     Latest Articles
