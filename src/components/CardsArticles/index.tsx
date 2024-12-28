@@ -9,7 +9,7 @@ interface CardProps {
 
 export default function CardArticles({ icon, nameCard, workCard, description }: CardProps) {
     return (
-        <div className="flex flex-col items-center justify-center p-4">
+        <div className="flex flex-col items-center justify-center w-full">
             <div className="w-full rounded-md">
                 <img className="w-full rounded-t-md" src={icon} alt="icone" />
             </div>
